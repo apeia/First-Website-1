@@ -1,0 +1,165 @@
+* {
+  font-family:  "Lato", "Arial", sans-serif;
+  text-align: center;
+  word-wrap: break-word;
+  background: #ede7f6;
+  position: relative;
+}
+
+.header {
+  background: white;
+  color: black;
+}
+
+.question {
+  text-align: left; 
+}
+
+div {
+  background: white;
+  border-radius: 8px;
+  max-width: 60ch;
+  min-width: 60ch;
+  box-shadow:  1px 5px 8px #9e9aa6;
+  margin: 10px auto;
+}
+
+h1, h2 ,h3 ,h4 ,h5, h6 {
+  background: white;
+  border-radius: 8px;
+}
+
+label {
+  display: inline-block;
+  background: white;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 10px;
+
+  
+}
+
+form {
+  text-align: left;
+  background: white;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  
+}
+
+a {
+  background: white;
+}
+
+p {
+  background: white;
+  text-align: left;
+  margin: 0px auto;
+  max-width: 10ch;
+}
+
+h1 {
+  background: white;
+  color: red;
+}
+
+h3 {
+  text-align: left;
+  padding: 15px 0px 0px 15px;
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+label.radio  {
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: darkgray;
+  box-shadow: 2px 3px 5px #908989
+  
+}
+
+label.radio:hover {
+  border: 1px solid black;
+/*   box-shadow: none; */
+}
+
+label.checkbox {
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+label.checkbox:hover {
+  font-weight: 900;
+  border-color: black;
+}
+
+label.submit {
+  text-align: center;
+}
+
+
+input[type="radio"] {
+  text-align: left;
+  opacity: 0;
+  width: 0;
+}
+
+input[type="radio"]:checked + label {
+/*   color: green; */
+/*   font-weight: 900; */
+  background: lightgreen;
+  border: 1px solid green;
+  box-shadow: none;
+}
+
+input[type="checkbox"] {
+  margin-left: 15px;
+}
+
+input[type="submit"]:hover {
+  font-weight: 900;
+  border-color: black;
+}
+
+input[type="checkbox"]:checked + label {
+  font-weight: 900;
+  background-color: lightgreen;
+
+}
+
+input[type="submit"] {
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 20px;
+  
+}
+
+#title {
+
+  border-top-width: 18px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+
+  border-top-color: #673ab7;
+  border-right-color: #c5c8d1;
+  border-bottom-color: #c5c8d1;
+  border-left-color: #c5c8d1;
+  
+  border-style: solid;
+}
+
+#SS_buttons {
+  text-align: left;
+}
+
+#Submit {
+  text-align: center;
+  
+}
